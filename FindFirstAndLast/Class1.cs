@@ -9,6 +9,7 @@ public class Class1
         int n = nums.Length;
         bool b = false;
         List<int> arrList = new List<int>();
+
         for (i = 0; i < n; i++)
         {
             if (nums[i] == target)

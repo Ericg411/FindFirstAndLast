@@ -19,6 +19,7 @@ public class UnitTest1
         int[] result = _test.SearchRange(nums, target);
         int[] answer = { 3, 4 };
         bool IsEqualto = true;
+
         for (int i = 0; i < answer.Length; i++)
         {
             if (result[i] != answer[i])
@@ -40,6 +41,7 @@ public class UnitTest1
         int[] result = _test.SearchRange(nums, target);
         int[] answer = { -1, -1 };
         bool IsEqualto = true;
+
         for (int i = 0; i < answer.Length; i++)
         {
             if (result[i] != answer[i])
@@ -60,6 +62,7 @@ public class UnitTest1
         int[] result = _test.SearchRange(nums, target);
         int[] answer = { -1, -1 };
         bool IsEqualto = true;
+
         for (int i = 0; i < answer.Length; i++)
         {
             if (result[i] != answer[i])
